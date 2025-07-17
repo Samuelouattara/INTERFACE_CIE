@@ -222,6 +222,7 @@
         }
 
         .payment-icon {
+            position: left;;
             width: 24px;
             height: 24px;
             background: #333;
@@ -296,3 +297,4 @@
         .print-btn:hover {
             transform: scale(1.1);
         }
+

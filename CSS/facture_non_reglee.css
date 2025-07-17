@@ -268,3 +268,99 @@
             width: 150px;
             height: 75px;
         }
+
+        /* Media Queries pour la responsivité */
+        @media (max-width: 768px) {
+            body {
+                padding: 10px;
+            }
+
+            .container {
+                max-width: 100%;
+                width: 95%;
+                padding: 20px 20px 30px 20px;
+            }
+
+            .logo img {
+                width: 120px;
+                height: 60px;
+            }
+
+            .success-section {
+                min-height: 200px;
+                padding: 15px 0 30px 0;
+            }
+
+            .decorative-elements {
+                height: 200px;
+            }
+
+            .title {
+                font-size: 24px;
+            }
+
+            .subtitle {
+                font-size: 16px;
+            }
+
+            .section-header {
+                font-size: 16px;
+            }
+
+            .info-row {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 5px;
+            }
+
+            .info-label,
+            .info-value {
+                font-size: 14px;
+            }
+
+            .download-btn {
+                padding: 10px 20px;
+                font-size: 13px;
+            }
+
+        @media (max-width: 480px) {
+            .container {
+                padding: 15px 15px 25px 15px;
+            }
+
+            .logo img {
+                width: 100px;
+                height: 50px;
+            }
+
+            .title {
+                font-size: 20px;
+            }
+
+            .subtitle {
+                font-size: 14px;
+            }
+
+            .check-circle {
+                width: 60px;
+                height: 60px;
+            }
+
+            .check-circle::before {
+                font-size: 30px;
+            }
+
+            .section-header {
+                font-size: 14px;
+            }
+
+            .info-label,
+            .info-value {
+                font-size: 13px;
+            }
+
+            .download-btn {
+                padding: 8px 16px;
+                font-size: 12px;
+            }
+        }
